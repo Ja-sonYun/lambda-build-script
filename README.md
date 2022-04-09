@@ -12,8 +12,8 @@ other_lambda_function/
   |- src/
   |   |- other_lambda_function.py
   |- requirements.txt
-no_src_folder/  # This will be ignored
-  |- other_lambda_function.py
+without_src_folder/  # This will be ignored
+  |- other_lambda_function.py  # src/ does not exist here
   |- requirements.txt
 __with_double_underscore/  # This will also be ignored
   |- src/
